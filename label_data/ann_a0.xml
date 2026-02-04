@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1992385</id>
+      <name>Ance0</name>
+      <size>21</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-02-03 22:25:25.721431+00:00</created>
+      <updated>2026-02-03 22:39:47.170761+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>20</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3567579</id>
+          <start>0</start>
+          <stop>20</stop>
+          <url>https://app.cvat.ai/api/jobs/3566798</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>anthonylinzhuo</username>
+        <email>anthonylinzhuo@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Acne</name>
+          <color>#ab76fb</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Severity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Mild
+Moderate
+Severe</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Redness</name>
+          <color>#273964</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Severity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Mild
+Moderate
+Severe</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Pigmentation</name>
+          <color>#99a0d7</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Severity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Mild
+Moderate
+Severe</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Dryness</name>
+          <color>#6d81a0</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Severity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Mild
+Moderate
+Severe</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>DarkCircles</name>
+          <color>#c72a8c</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Severity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Mild
+Moderate
+Severe</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Wrinkles</name>
+          <color>#68e708</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Severity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Mild
+Moderate
+Severe</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Texture</name>
+          <color>#3f759e</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Severity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Mild
+Moderate
+Severe</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Scarring</name>
+          <color>#8cbc0e</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>Severity</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>None</default_value>
+              <values>None
+Mild
+Moderate
+Severe</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>Pose</name>
+          <color>#1446c2</color>
+          <type>tag</type>
+          <attributes>
+            <attribute>
+              <name>view</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>Three_quarters_L</default_value>
+              <values>Three_quarters_L
+Three_quarters_R</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-02-04 07:11:56.140201+00:00</dumped>
+  </meta>
+  <image id="0" name="levle0_1.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="1" name="levle0_100.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_L</attribute>
+    </tag>
+  </image>
+  <image id="2" name="levle0_105.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_L</attribute>
+    </tag>
+  </image>
+  <image id="3" name="levle0_107.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="4" name="levle0_114.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="5" name="levle0_135.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_L</attribute>
+    </tag>
+  </image>
+  <image id="6" name="levle0_140.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="7" name="levle0_154.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="8" name="levle0_16.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="9" name="levle0_166.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="10" name="levle0_190.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_L</attribute>
+    </tag>
+  </image>
+  <image id="11" name="levle0_21.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="12" name="levle0_213.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="13" name="levle0_232.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="14" name="levle0_321.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="15" name="levle0_34.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_L</attribute>
+    </tag>
+  </image>
+  <image id="16" name="levle0_37.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Moderate</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="17" name="levle0_41.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+  <image id="18" name="levle0_44.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_L</attribute>
+    </tag>
+  </image>
+  <image id="19" name="levle0_48.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">Severe</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_L</attribute>
+    </tag>
+  </image>
+  <image id="20" name="levle0_54.jpg" width="1024" height="1024">
+    <tag label="Acne" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Redness" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pigmentation" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Dryness" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="DarkCircles" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Wrinkles" source="manual">
+      <attribute name="Severity">None</attribute>
+    </tag>
+    <tag label="Texture" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Scarring" source="manual">
+      <attribute name="Severity">Mild</attribute>
+    </tag>
+    <tag label="Pose" source="manual">
+      <attribute name="view">Three_quarters_R</attribute>
+    </tag>
+  </image>
+</annotations>
