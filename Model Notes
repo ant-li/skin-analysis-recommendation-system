@@ -1,0 +1,27 @@
+cuda = the gpu (to train faster)
+- downloaded pytorch gpu version
+channels -> the colors, rgb 
+loss function -> used to improve the model (goal: minimize the function)
+- weights is updated by the loss function
+
+criterion -> the loss, how wrong the model is
+optimizer -> fixes the model based on the criterion
+
+backbone -> part of the model that learns general features from the images
+head -> fc, the linear layer
+
+TRANSFER LEARNING
+resnet18 -> skeleton of model were using
+fc = fully connected, the very last layer which is linear, the output of what we want to predict
+- using a neural network the last layer tends to be linear (like the test, connecting it to our problem)
+logit = (weights * features) + bias
+- model's raw opinion before convertin to probabilities
+take the logits and put it into sigmoid (0 to 1)
+
+we are only training the head to start which is the fc 
+
+after training the head we built a function to find the best threshold (what we found: threshold(0.35)
+  -> why we do this: to stabalize F1
+  -> epoch 10 -> AUROC (area under the ROC curve) was still increasing so we increased the epoch to 20 
+IMPORTANT: reset parameters so that you don't actually retrain the same model again
+
